@@ -123,4 +123,3 @@ function enviarCorreo(){
     var bodyCorreo = "Hola Juliette soy " + $('#nombreCorreo').val() + ", \n" + $('#msjCorreo').val();
     window.open("mailto:juliettecontreras99@gmail.com?subject="+asuntoCorreo+"&body="+bodyCorreo, '_blank');
 }
-Content-Security-Policy: trusted-types 'none';
